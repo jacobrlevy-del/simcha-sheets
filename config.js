@@ -3,7 +3,7 @@
 //                  or the account email. Leave empty and the Buy button shows "Coming soon".
 window.SS_CONFIG = {
   PAYPAL_BUSINESS: "jacobrlevy@gmail.com",
-  SITE_URL: "https://jacobrlevy-del.github.io/simcha-sheets",
+  SITE_URL: "https://simcha-sheets.netlify.app",
   CURRENCY: "USD",
   PRODUCTS: {
     "CH-5787": { name: "Chanukah 5787 Family Pack (PDF)", price: "1.00", returnPath: "/d/yiPtuR87-Gl880IJ/" }
