@@ -6,6 +6,6 @@ window.SS_CONFIG = {
   SITE_URL: "https://jacobrlevy-del.github.io/simcha-sheets",
   CURRENCY: "USD",
   PRODUCTS: {
-    "CH-5787": { name: "Chanukah 5787 Family Pack (PDF)", price: "7.00", returnPath: "/d/yiPtuR87-Gl880IJ/" }
+    "CH-5787": { name: "Chanukah 5787 Family Pack (PDF)", price: "1.00", returnPath: "/d/yiPtuR87-Gl880IJ/" }
   }
 };
