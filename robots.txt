@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /simcha-sheets/d/
+Sitemap: https://jacobrlevy-del.github.io/simcha-sheets/sitemap.xml

@@ -1,0 +1,5 @@
+body{margin:0;font-family:Inter,system-ui,sans-serif;background:#fbf8f1;color:#1f2430;line-height:1.65}
+header{background:#1b2a4a;padding:14px 16px}header a{color:#fff;font-family:Georgia,serif;font-weight:800;text-decoration:none;font-size:1.2rem}header a span{color:#c9962b}
+main{max-width:720px;margin:0 auto;padding:28px 16px 60px}h1,h2{font-family:Georgia,serif;color:#1b2a4a;line-height:1.15}
+table{width:100%;border-collapse:collapse;background:#fff}td,th{border:1px solid #e3dccb;padding:8px;text-align:left}th{background:#1b2a4a;color:#fff}
+.cta{background:#fff;border:2px solid #c9962b;border-radius:14px;padding:18px;margin:28px 0}.cta a{font-weight:700}
