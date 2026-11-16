@@ -2,7 +2,7 @@
 // PAYPAL_BUSINESS: the founder's PayPal Merchant ID (preferred, from PayPal > Account Settings > Business information)
 //                  or the account email. Leave empty and the Buy button shows "Coming soon".
 window.SS_CONFIG = {
-  PAYPAL_BUSINESS: "",
+  PAYPAL_BUSINESS: "jacobrlevy@gmail.com",
   SITE_URL: "https://jacobrlevy-del.github.io/simcha-sheets",
   CURRENCY: "USD",
   PRODUCTS: {
