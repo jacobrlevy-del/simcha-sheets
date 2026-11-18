@@ -53,7 +53,7 @@ footer{padding:30px 0;color:var(--muted);font-size:.85rem;text-align:center}
     <p style="font-size:1.1rem">Eight nights, sorted. A printable pack built for <b>this year's</b> calendar, including the two Friday-night lightings, with everything your family needs from the first candle to Zot Chanukah.</p>
     <p><span class="price">$1</span> <span class="small">· 12-page PDF · US Letter, prints fine on A4 · instant download</span></p>
     <p class="mda">❤️ All proceeds from this pack, after PayPal’s processing fee, are donated to <b>Magen David Adom</b>, Israel’s national emergency medical and blood service.</p>
-    <p><a id="buy" class="btn" href="#" aria-disabled="true">Buy now with PayPal · $1</a> &nbsp; <a class="btn ghost" href="#free">Get the free dreidel sheet</a></p>
+    <p><a id="buy" class="btn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=jacobrlevy%40gmail.com&amp;item_name=Chanukah+5787+Family+Pack+%28PDF%29&amp;item_number=CH-5787&amp;amount=1.00&amp;currency_code=USD&amp;no_shipping=1&amp;return=https%3A%2F%2Fsimcha-sheets.netlify.app%2Fd%2FyiPtuR87-Gl880IJ%2F&amp;cancel_return=https%3A%2F%2Fsimcha-sheets.netlify.app%2F&amp;rm=1">Buy now with PayPal · $1</a> &nbsp; <a class="btn ghost" href="#free">Get the free dreidel sheet</a></p>
     <div class="tiers"><p class="small" style="margin:0 0 6px"><b>Want to give more?</b> Pay what you like. You get the same pack, and every dollar after PayPal's fee goes to MDA:</p>
       <div id="tierbtns"></div></div>
     <p class="small">Pay securely with PayPal or card through PayPal. You'll go straight to your download after payment.</p>
@@ -120,7 +120,7 @@ footer{padding:30px 0;color:var(--muted);font-size:.85rem;text-align:center}
 <script src="config.js"></script>
 <script>
 (function(){const c=window.SS_CONFIG,p=c.PRODUCTS["CH-5787"],b=document.getElementById('buy');
- if(!c.PAYPAL_BUSINESS){b.textContent='Coming soon';return;}
+ if(!c.PAYPAL_BUSINESS){b.textContent='Coming soon';b.href='#';b.setAttribute('aria-disabled','true');return;}
  const q=new URLSearchParams({cmd:'_xclick',business:c.PAYPAL_BUSINESS,item_name:p.name,item_number:'CH-5787',amount:p.price,currency_code:c.CURRENCY,no_shipping:'1',return:c.SITE_URL+p.returnPath,cancel_return:c.SITE_URL+'/',rm:'1'});
  b.href='https://www.paypal.com/cgi-bin/webscr?'+q.toString();b.removeAttribute('aria-disabled');
  const tb=document.getElementById('tierbtns');
